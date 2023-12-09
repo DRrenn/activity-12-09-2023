@@ -1,0 +1,586 @@
+/* -------------RESETS------------- */
+/*Resets are used for overwriting default html tag properties*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    list-style: none;
+  }
+  html {
+    font-size: 62.5%;
+    height: 100%;
+  }
+  body {
+    color: #2b2b2b;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    line-height: 1.4;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section,
+  time {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+/* header */
+.header {
+    background-color: #1a1428;
+    display: flex;
+    justify-content: space-around;
+   color: white;
+   padding: 3rem 1rem;
+   align-items: center;
+
+}
+.header  img {
+    max-width: 10rem;
+}
+.header_menu ul{
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #fff;
+}
+.header_menu ul span {
+    display: block;
+    background-color: #fff;
+    width: 2px;
+    height: 4.4rem;
+    
+}
+.header_menu ul li {
+    padding: 1rem 1rem;
+}
+.header_menu ul li a {
+    color: #fff;
+}
+body {
+    background-color: #1a1428;
+   
+}
+
+
+   /* title */
+   /* .text {
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+.details {
+    font-size: 1.5rem;
+}
+.item img   {
+    margin-top: 1rem;
+    width: 100%;
+} */
+
+/* 2 */
+   /* header */
+   .header {
+    background-color: #1a1428;
+    display: flex;
+    justify-content: space-around;
+   color: white;
+   padding: 3rem 2rem;
+   align-items: center;
+
+}
+.header  img {
+    max-width: 15rem;
+}
+.header_menu ul {
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.header_menu ul span {
+    display: block;
+    background-color: #fff;
+    width: 1.5px;
+    height: 4.4rem;
+    
+}
+.header_menu ul li {
+    padding: 1rem 1rem;
+}
+
+/* title */
+.text {
+    text-align: center;
+    color: #fff;
+}
+.text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+.details {
+    font-size: 1.5rem;
+}
+.item img   {
+    margin-top: 1rem;
+    max-width: 580px;
+
+
+}
+.item {
+    margin-left: 45rem;
+}
+/* time */
+.time {
+/* display: flex;
+gap: 1rem;
+text-align: center;
+color: #fff;
+font-size: 5rem;
+padding: 0rem 2rem;
+justify-content: space-between;
+margin-left: 3rem;
+margin-right: 2rem; */
+display: flex;
+text-align: center;
+color: #fff;
+font-size: 5rem;
+justify-content: center ;
+gap: 8rem;
+
+}
+.time li {
+font-size: 2rem;
+margin-right: 1rem;
+margin-bottom: 2rem;
+}
+
+/* button */
+.button {
+    background-image: url(/img/dbecb70f-390a-4498-853f-95bdc162312c/21071622474227364.png);
+    background-size: cover;
+    margin-top: 5rem;
+   width: 40rem;
+    height: 5rem;
+   margin: 0 auto;
+}
+.button h1 { 
+   text-align: center;
+   padding: 2rem;
+}
+/* card     */
+.card {
+margin-top: 4rem;
+}
+.cardlogo img{
+width: 20rem;
+
+}
+.cardtxt {
+color: #fff;
+width: 19rem;
+text-align: center;
+line-height: 3rem;
+}
+
+.cardtxt h1{
+font-size: 2rem;
+font-weight: 600;
+
+}
+.card_det {
+font-size: 1.4rem;
+line-height: 2rem;
+}
+.price {
+color: gold;
+}
+.card_btn img{
+max-width: 20rem;
+cursor: pointer;
+
+}
+
+.cardcont {
+display: flex;
+gap: 2rem;
+justify-content: center;
+}
+
+
+
+/* footer */
+.foot_cont {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.foot_cont .images img {
+width: 3rem;
+}
+.foot_menu ul{
+display: flex;
+gap: 1rem;
+border: 2px solid #fff;
+
+}
+.foot_menu ul span {
+display: block;
+background-color: #fff;
+width: 1px;
+height: 2rem;
+}
+.foot_menu ul li a{
+color: #fff;
+
+}
+
+
+
+  @media screen and (max-width: 580px) {
+    /* header */
+    .header {
+        background-color: #1a1428;
+        display: flex;
+        justify-content: space-around;
+       color: white;
+       padding: 3rem 1rem;
+       align-items: center;
+    
+    }
+    .header  img {
+        max-width: 15rem;
+    }
+    .header_menu ul {
+        display: flex;
+        gap: 1rem;
+        border: 2px solid #fff;
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .header_menu ul span {
+        display: block;
+        background-color: #fff;
+        width: 1.5px;
+        height: 4.4rem;
+        
+    }
+    .header_menu ul li {
+        padding: 1rem 1rem;
+    }
+
+    /* title */
+    .text {
+        text-align: center;
+        color: #fff;
+    }
+    .text h1 {
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    .details {
+        font-size: 1.5rem;
+    }
+    .item img   {
+        margin-top: 1rem;
+        max-width: 55rem;
+        margin-left: -47rem;
+
+   }
+/* time */
+.time {
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    padding: 0rem 2rem;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.time li {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+/* button */
+    .button {
+        background-image: url(/img/dbecb70f-390a-4498-853f-95bdc162312c/21071622474227364.png);
+        background-size: cover;
+       width: 70%;
+        height: 5rem;
+       margin: 0 auto;
+
+    }
+    .button h1 { 
+       text-align: center;
+       padding: 2rem;
+    }
+/* card     */
+.card {
+    margin-top: 4rem;
+  
+}
+.cardlogo img{
+    width: 20rem;
+
+}
+.cardtxt {
+    color: #fff;
+    width: 19rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.cardtxt h1{
+    font-size: 2rem;
+    font-weight: 600;
+
+  }
+  .card_det {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .price {
+    color: gold;
+  }
+  .card_btn img{
+    max-width: 20rem;
+    cursor: pointer;
+
+   }
+
+.cardcont {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+  }
+ 
+  
+
+
+   @media screen and (max-width: 580px) {
+     
+
+
+
+    .foot_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+
+    }
+   .foot_cont .images img {
+    width: 3rem;
+   }
+   .foot_menu ul{
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #fff;
+   
+   }
+   .foot_menu ul span {
+    display: block;
+    background-color: #fff;
+    width: 1px;
+    height: 2rem;
+   }
+   .foot_menu ul li a{
+    color: #fff;
+   
+   }
+
+
+ }
+
+ .container .title h1{
+    font-size: 2.6rem;
+    color: gold;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    margin-left: 48rem;
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 580px;
+    margin-bottom: 2rem;
+  }
+  .container .title h3{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+  }
+  .shape img{
+    padding-left: 3rem;
+  }
+
+  @media screen and (max-width: 580px) {
+    .container{
+      display: flex;
+      margin-left: 0;
+       width: 48rem;
+       margin-bottom: 4rem;
+       margin-top: 4rem;
+
+    } 
+    .container .title h3{
+      font-size: 1.2rem;
+      color: white;
+      text-align: center;
+
+    }
+    .shape img{
+      padding-left: 2rem;
+    }
+
+
+    /* terms */
+    .termsconti {
+      margin-left: -50rem;
+
+  }
+  .termsconti ul {
+     display: flex;
+    height: fit-content;
+     width: 50rem;
+     margin-left: -1.3rem;
+     text-decoration: underline 1px solid white;
+ 
+  }
+   .termsconti ul li a {
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  .termsconti ul span {
+      display: block;
+      background-color: #fff;
+      height: 2rem;
+      width: 2px;
+  }
+
+
+
+  }
+
+  
+    /* terms */
+    .termsconti {
+      padding: 4rem 55rem ;
+  }
+  .termsconti ul {
+     display: flex;
+     gap: 1rem;
+     text-decoration: underline 1px solid white;
+ 
+  }
+   .termsconti ul li a {
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  .termsconti ul span {
+      display: block;
+      background-color: #fff;
+      height: 2rem;
+      width: 2px;
+  }
+
+
